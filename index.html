@@ -1,87 +1,258 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Leadership MA Landing Page</title>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Masters in John Paul II and Leadership</title>
+    <meta
+      name="description"
+      content="A proposed graduate degree track from the Saint John Paul II Institute at the University of St. Thomas Houston, integrating John Paul II studies with ethical leadership formation."
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <a class="brand" href="#top" aria-label="Saint John Paul II Institute">
+        <img
+          src="assets/institute-logo.jpg"
+          data-fallback="assets/institute-logo.jpg"
+          data-label="Institute Logo"
+          alt="University of St. Thomas Saint John Paul II Institute logo"
+        />
+        <span>Saint John Paul II Institute</span>
+      </a>
+      <nav aria-label="Primary navigation">
+        <a href="#vision">Vision</a>
+        <a href="#formation">Formation</a>
+        <a href="#partnerships">Partnerships</a>
+        <a href="#apply">Contact</a>
+      </nav>
+    </header>
 
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            margin: 0;
-            padding: 0;
-            background-color: #f5f5f5;
-            color: #222;
-        }
+    <main id="top">
+      <section class="hero">
+        <div class="hero-media">
+          <img
+            src="assets/poland-hero.jpg"
+            data-fallback="assets/poland-hero.jpg"
+            data-label="Poland"
+            alt="Historic church square in Poland at sunrise"
+          />
+        </div>
+        <div class="hero-copy">
+          <p class="eyebrow">Proposed New Degree Track</p>
+          <h1>Masters in John Paul II and Leadership</h1>
+          <p class="lead">
+            Graduate leadership formation grounded in the life, thought, and public witness of
+            St. John Paul II.
+          </p>
+          <div class="hero-actions">
+            <a class="button primary" href="#apply">Start a Conversation</a>
+            <a class="button secondary" href="#vision">Explore the Vision</a>
+          </div>
+        </div>
+      </section>
 
-        header {
-            background-color: #003366;
-            color: white;
-            padding: 60px 20px;
-            text-align: center;
-        }
+      <section class="intro-band" aria-label="Program overview">
+        <div>
+          <span>
+            A leadership track designed for executives, mid-career professionals, educators,
+            institutional leaders, Church leaders, and nonprofit leaders.
+          </span>
+        </div>
+      </section>
 
-        section {
-            max-width: 900px;
-            margin: auto;
-            padding: 40px 20px;
-            background-color: white;
-        }
+      <section id="vision" class="section split">
+        <div class="section-copy">
+          <p class="eyebrow">Why This Track</p>
+          <h2>A degree for leaders seeking depth, clarity, and moral imagination.</h2>
+          <p>
+            The Saint John Paul II Institute is developing a graduate initiative that builds on
+            its existing strengths in philosophy, theology, ethics, culture, and the thought of
+            St. John Paul II while expanding into applied leadership formation for contemporary
+            professional life.
+          </p>
+          <p>
+            The proposal emerged from sustained consultation with accomplished students,
+            University leadership, faculty, donors, and supporters who recognized that the
+            Institute's current work is already functioning as leadership formation for serious
+            professionals.
+          </p>
+        </div>
+        <figure class="portrait-frame">
+          <img
+            src="assets/sjpii-portrait.jpg"
+            data-fallback="assets/sjpii-portrait.jpg"
+            data-label="Saint John Paul II"
+            alt="Portrait artwork of Saint John Paul II"
+          />
+          <figcaption>Leadership formed through holiness, culture, courage, and service.</figcaption>
+        </figure>
+      </section>
 
-        h1, h2 {
-            margin-top: 0;
-        }
+      <section class="section audience">
+        <div class="section-heading">
+          <p class="eyebrow">Designed To Serve</p>
+          <h2>Professionals who carry real responsibility.</h2>
+        </div>
+        <div class="audience-grid">
+          <article>
+            <h3>Executives and Business Professionals</h3>
+            <p>Ethical leadership and organizational culture rooted in human dignity.</p>
+          </article>
+          <article>
+            <h3>Mid-Career Professionals</h3>
+            <p>A serious graduate path for advancement, purpose, and leadership clarity.</p>
+          </article>
+          <article>
+            <h3>Educators and Institutional Leaders</h3>
+            <p>Formation for guiding communities, classrooms, teams, and complex institutions.</p>
+          </article>
+          <article>
+            <h3>Church and Nonprofit Leaders</h3>
+            <p>Faithful, practical preparation for service in mission-driven environments.</p>
+          </article>
+        </div>
+      </section>
 
-        .button {
-            display: inline-block;
-            background-color: #b22222;
-            color: white;
-            padding: 12px 24px;
-            text-decoration: none;
-            border-radius: 5px;
-            margin-top: 20px;
-        }
+      <section id="formation" class="section formation">
+        <div class="image-pair" aria-label="Poland and John Paul II imagery">
+          <img
+            src="assets/childhood-parish-jp2.png"
+            data-fallback="assets/childhood-parish-jp2.png"
+            data-label="Childhood Parish"
+            alt="Childhood parish of John Paul II in Poland"
+          />
+          <img
+            src="assets/jpii-un-3.jpg"
+            data-fallback="assets/jpii-un-3.jpg"
+            data-label="John Paul II at the United Nations"
+            alt="Saint John Paul II greeting leaders at the United Nations"
+          />
+        </div>
+        <div class="section-copy">
+          <p class="eyebrow">Leadership Formation</p>
+          <h2>John Paul II as thinker, pastor, statesman, artist, and global leader.</h2>
+          <p>
+            This track presents St. John Paul II not only as a theologian and philosopher, but
+            as a multifaceted leader whose thought remains highly relevant to modern leadership
+            challenges.
+          </p>
+          <ul class="check-list">
+            <li>Ethical and human-centered leadership</li>
+            <li>Organizational culture and decision-making</li>
+            <li>Leadership philosophy informed by faith and reason</li>
+            <li>Applied reflection on solidarity, culture, politics, and the arts</li>
+          </ul>
+        </div>
+      </section>
 
-        footer {
-            text-align: center;
-            padding: 30px;
-            background-color: #003366;
-            color: white;
-        }
-    </style>
-</head>
+      <section class="quote-band">
+        <blockquote>
+          <p>
+            The degree is intended to move beyond a traditional academic model by integrating
+            serious study, practical leadership development, and mission-driven professional
+            formation.
+          </p>
+        </blockquote>
+      </section>
 
-<body>
+      <section id="partnerships" class="section split reverse">
+        <figure class="landscape-frame">
+          <img
+            src="assets/magnificent-churches-poland.png"
+            data-fallback="assets/magnificent-churches-poland.png"
+            data-label="Churches of Poland"
+            alt="Ornate church interior in Poland"
+          />
+        </figure>
+        <div class="section-copy">
+          <p class="eyebrow">Strategic Partnerships</p>
+          <h2>Built for academic excellence and professional reach.</h2>
+          <p>
+            The Institute seeks partnerships with leadership institutes, business and executive
+            training organizations, corporate partners, and international educational and
+            cultural institutions.
+          </p>
+          <div class="feature-list">
+            <span>Executive seminars</span>
+            <span>Professional immersion experiences</span>
+            <span>Applied leadership projects</span>
+            <span>Continuing education pathways</span>
+            <span>Internship and practicum-style experiences</span>
+          </div>
+        </div>
+      </section>
 
-<header>
-    <h1>Master's in John Paul II and Leadership</h1>
-    <p>Faith, Reason, Ethical Leadership, and Executive Formation</p>
+      <section class="section mission">
+        <div class="section-heading">
+          <p class="eyebrow">University Mission</p>
+          <h2>Aligned with faith, reason, dignity, and service.</h2>
+        </div>
+        <div class="mission-layout">
+          <img
+            src="assets/jpii-un-4.jpg"
+            data-fallback="assets/jpii-un-4.jpg"
+            data-label="John Paul II Address"
+            alt="Saint John Paul II addressing the United Nations"
+          />
+          <div class="mission-points">
+            <p>
+              The initiative aligns closely with the University of St. Thomas Houston's E4P
+              initiative by integrating faith and reason, advancing ethical leadership,
+              promoting human dignity, and forming leaders for the Church and society.
+            </p>
+            <p>
+              Current development work indicates that core courses and electives already exist,
+              with remaining leadership courses outlined in cooperation with Dr. Timothy Furlan.
+            </p>
+          </div>
+        </div>
+      </section>
 
-    <a class="button" href="#">
-        Request Information
-    </a>
-</header>
+      <section id="apply" class="contact-section">
+        <div class="contact-card">
+          <div>
+            <p class="eyebrow">Begin the Conversation</p>
+            <h2>Masters in John Paul II and Leadership</h2>
+            <p>
+              For prospective students, partners, donors, and organizations interested in
+              leadership formation through the Saint John Paul II Institute.
+            </p>
+          </div>
+          <address>
+            <strong>John Corrigan, Ph.D.</strong>
+            <span>Director, St. John Paul II Institute</span>
+            <span>Assistant Professor of Philosophy</span>
+            <a href="tel:17135252132">Office: 713-525-2132</a>
+            <a href="tel:14847879510">Call or Text: 484-787-9510</a>
+            <a href="https://stthom.edu/st-john-paul-ii-institute/">stthom.edu/st-john-paul-ii-institute</a>
+          </address>
+        </div>
+      </section>
+    </main>
+    <script>
+      const placeholder = (label) => {
+        const svg = `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 760" role="img" aria-label="${label}">
+          <rect width="1200" height="760" fill="#eee8dc"/>
+          <rect x="52" y="52" width="1096" height="656" fill="none" stroke="#b9ad98" stroke-width="3"/>
+          <path d="M70 610 348 344l188 164 132-126 462 228v98H70z" fill="#d8caa9"/>
+          <circle cx="902" cy="214" r="88" fill="#d4a747"/>
+          <text x="600" y="384" text-anchor="middle" font-family="Georgia, serif" font-size="56" fill="#751529">${label}</text>
+        </svg>`;
+        return `data:image/svg+xml;charset=UTF-8,${encodeURIComponent(svg)}`;
+      };
 
-<section>
-    <h2>About the Program</h2>
-
-    <p>
-        The Leadership track at the Saint John Paul II Institute
-        integrates philosophy, theology, ethics, and leadership
-        formation for professionals, executives, educators, and
-        ministry leaders.
-    </p>
-
-    <p>
-        Students engage the thought of Saint John Paul II while
-        developing practical leadership skills rooted in the
-        Catholic intellectual tradition.
-    </p>
-</section>
-
-<footer>
-    University of St. Thomas Houston — Saint John Paul II Institute
-</footer>
-
-</body>
+      document.querySelectorAll("img[data-fallback]").forEach((img) => {
+        img.addEventListener("error", () => {
+          if (!img.dataset.triedFallback) {
+            img.dataset.triedFallback = "true";
+            img.src = img.dataset.fallback;
+            return;
+          }
+          img.src = placeholder(img.dataset.label || "Image");
+        });
+      });
+    </script>
+  </body>
 </html>
