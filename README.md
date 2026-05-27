@@ -13,3 +13,10 @@ The site is configured for GitHub Pages deployment via GitHub Actions.
 ## Local preview
 
 Open `index.html` in your browser or use a local server such as `python -m http.server`.
+
+## Additional site pages
+
+- `bios.html` — faculty bios and leadership profiles.
+- `testimonials.html` — live video embed plus text testimonials and gallery content.
+- `coursework.html` — course samples, filters, and accordion details.
+- `contact.html` — contact information and an inquiry form.
