@@ -1,0 +1,126 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Testimonials | Masters in John Paul II and Leadership</title>
+    <meta
+      name="description"
+      content="Video testimonials and stories from professionals engaged with the John Paul II and Leadership program."
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <a class="brand" href="index.html" aria-label="Saint John Paul II Institute">
+        <img
+          src="assets/institute-logo.jpg"
+          alt="University of St. Thomas Saint John Paul II Institute logo"
+        />
+        <span>Saint John Paul II Institute</span>
+      </a>
+      <nav aria-label="Primary navigation">
+        <a href="index.html">Home</a>
+        <a href="bios.html">Bios</a>
+        <a href="testimonials.html">Testimonials</a>
+        <a href="coursework.html">Course Work</a>
+        <a href="index.html#apply">Contact</a>
+      </nav>
+    </header>
+
+    <main>
+      <section class="hero">
+        <div class="hero-media">
+          <img
+            src="assets/poland-hero.jpg"
+            data-fallback="assets/poland-hero.jpg"
+            data-label="Polish city square"
+            alt="Polish city square and historic architecture"
+          />
+        </div>
+        <div class="hero-copy">
+          <p class="eyebrow">Video Testimonials</p>
+          <h1>Listen to leaders, alumni, and partners.</h1>
+          <p class="lead">
+            Experience video stories that illustrate how the program connects leadership, culture, and faith.
+          </p>
+        </div>
+      </section>
+
+      <section class="section video-panel">
+        <video autoplay muted loop playsinline poster="assets/poland-hero.jpg">
+          <source src="" type="video/mp4" />
+        </video>
+        <div class="overlay"></div>
+        <div class="video-copy">
+          <p class="eyebrow">Featured testimonial</p>
+          <h2>See how leadership formation is shaping real work and real teams.</h2>
+        </div>
+      </section>
+
+      <section class="section">
+        <div class="section-heading">
+          <p class="eyebrow">What People Say</p>
+          <h2>Testimonials that highlight the program's impact.</h2>
+        </div>
+
+        <div class="slider" data-slider="true">
+          <div class="slide-track">
+            <article class="slide card">
+              <p>
+                "The leadership content brought together tradition, ethics, and practical strategy in a way that made every session feel immediately useful."
+              </p>
+              <strong>— Executive Leader</strong>
+            </article>
+            <article class="slide card">
+              <p>
+                "This program helped our team translate Pope John Paul II's thought into concrete action in education and nonprofit leadership."
+              </p>
+              <strong>— Formation Director</strong>
+            </article>
+            <article class="slide card">
+              <p>
+                "The video lessons and mentor conversations gave me a clearer path for ethical decision-making in my organization."
+              </p>
+              <strong>— Alumni Participant</strong>
+            </article>
+          </div>
+          <button class="slider-control prev" aria-label="Previous testimonial">‹</button>
+          <button class="slider-control next" aria-label="Next testimonial">›</button>
+        </div>
+      </section>
+
+      <section class="section">
+        <div class="section-heading">
+          <p class="eyebrow">Gallery</p>
+          <h2>Visual moments from learning and engagement.</h2>
+        </div>
+
+        <div class="gallery-grid">
+          <article class="gallery-item" data-title="Seminar dialogue" data-src="assets/poland-hero.jpg">
+            <img src="assets/poland-hero.jpg" alt="Seminar dialogue" />
+            <div class="gallery-label">Seminar dialogue</div>
+          </article>
+          <article class="gallery-item" data-title="Campus discussion" data-src="assets/jpii-un-3.jpg">
+            <img src="assets/jpii-un-3.jpg" alt="Campus discussion" />
+            <div class="gallery-label">Campus discussion</div>
+          </article>
+          <article class="gallery-item" data-title="Leadership conversation" data-src="assets/jpii-un-4.jpg">
+            <img src="assets/jpii-un-4.jpg" alt="Leadership conversation" />
+            <div class="gallery-label">Leadership conversation</div>
+          </article>
+        </div>
+      </section>
+
+      <div class="modal" aria-hidden="true">
+        <div class="modal-content">
+          <button class="modal-close" aria-label="Close">×</button>
+          <img class="modal-image" src="" alt="Expanded gallery" />
+          <p class="modal-caption"></p>
+        </div>
+      </div>
+    </main>
+
+    <script src="scripts.js" defer></script>
+  </body>
+</html>
