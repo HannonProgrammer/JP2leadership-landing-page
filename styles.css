@@ -705,6 +705,44 @@ address a {
   max-width: 660px;
 }
 
+.video-panel .testimonial-feature {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 18px;
+  margin-top: 24px;
+  max-width: 760px;
+}
+
+.video-panel .testimonial-photo {
+  width: 140px;
+  height: 140px;
+  object-fit: cover;
+  border-radius: 10px;
+  border: 2px solid rgba(255, 255, 255, 0.2);
+  box-shadow: 0 12px 28px rgba(0, 0, 0, 0.35);
+}
+
+.video-panel .testimonial-details {
+  min-width: 240px;
+}
+
+.video-panel .testimonial-details p {
+  margin: 0 0 12px;
+  color: rgba(255, 255, 255, 0.9);
+}
+
+.video-panel .testimonial-details .button {
+  border-color: rgba(255, 255, 255, 0.65);
+}
+
+@media (max-width: 760px) {
+  .video-panel .testimonial-feature {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+}
+
 .gallery-grid {
   display: grid;
   grid-template-columns: repeat(3, minmax(0, 1fr));
